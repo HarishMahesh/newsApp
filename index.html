@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>24/7 News</title>
+</head>
+<body>
+   
+    <div class = "top-part">
+        <div class="heading">
+            <h3>24/7 News</h3>
+        </div>
+        <div class="icons">
+            <button class="type" onclick="displayNews('breaking-news',0)">Breaking News</button>
+            <button class="type" onclick="displayNews('world',1)">World News</button>
+            <button class="type" onclick="displayNews('nation',2)">National</button>
+            <button class="type" onclick="displayNews('sports',3)">Sports</button>
+            <button class="type" onclick="displayNews('technology',4)">Technology</button>
+            <button class="type" onclick="displayNews('entertainment',5)">Entertainment</button>
+            <button class="type" onclick="displayNews('science',6)">Science</button>
+            <button class="type" onclick="displayNews('health',7)">Health</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="news-portion">
+        
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
